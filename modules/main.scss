@@ -40,10 +40,9 @@ article, .main, main {
    {
       display:inline-block;
    }
-}
-article form label textarea,
-.main form label textarea {
-   width:auto;
+   form label textarea {
+      width:auto;
+   }
 }
 /* Text Inputs Inside Labels */
 article form label input[type=text]:only-of-type,

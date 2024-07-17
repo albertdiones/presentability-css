@@ -4,9 +4,9 @@
  *
  * @author albertdiones@gmail.com
  */
- @import url("table.scss");
- @import url("modules/main.scss");
- @import url("nav.scss");
+ @import "table.scss";
+ @import "modules/main.scss";
+ @import "nav.scss";
  body, table td, table th {
     color:#000;
     font:10px verdana;

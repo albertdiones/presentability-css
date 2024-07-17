@@ -49,9 +49,7 @@ main form label + input[type=email],
 main form label + select {
   display: inline-block;
 }
-
-article form label textarea,
-.main form label textarea {
+article form label textarea, .main form label textarea, main form label textarea {
   width: auto;
 }
 
