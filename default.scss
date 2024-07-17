@@ -5,7 +5,6 @@
  * @author albertdiones@gmail.com
  */
  @import "table.scss";
- @import "modules/main.scss";
  @import "nav.scss";
  body, table td, table th {
     color:#000;
@@ -14,11 +13,12 @@
  body {
     margin:0;
     padding:0;
-    background:#E6F8FF;
  }
  a,label {
     color:#001031;
     text-decoration:none;
+
+    
     cursor:pointer;
  }
  
@@ -39,7 +39,6 @@
     background:#E6F8FF;
     padding:10px 20px;
     margin:0;
-    border-bottom:1px solid #eee;
  }
  header > * {
     width:900px;
@@ -71,17 +70,11 @@
     margin-right:auto;
     max-width:100%;
  }
+
  header + header h1 {
     font:bold 28px "helvetica neue","myriad pro",helvetica,arial,sans-serif;
     text-transform:uppercase;
     text-shadow:0 0 5px black;
- }
- main, article {
-    border-radius:5px;
-    margin-top:10px;
-    margin-bottom:10px;
-    box-shadow:0 0 5px #888;
-    min-height:100px;
  }
  
  /* Move everything up */

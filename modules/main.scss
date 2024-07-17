@@ -1,13 +1,72 @@
 article, .main, main {
+   margin-top:10px;
+   margin-bottom:10px;
+   min-height:100px;
    padding:10px 20px;
    color:#000;
-   background:#E6EEFF;
    display:block;
    float:none;
    
    a, label {
       color:#0035A5;
    }
+
+   /* Forms on main */
+   & > form,
+   & > h1 ~ form:last-child
+   {
+      display:block;
+      margin:2em 0em;
+      padding:1em 1em;
+      border: 1px dashed #e0e0e0;
+      border-radius: 5px;
+      width:45em;
+
+      /* Solo form */
+      &:only-child,
+      &:last-child
+      {
+         padding:2em 4em;
+      }      
+      & > h1:first-child,
+      & > h2:first-child,
+      & > h3:first-child,
+      & > h4:first-child,
+      & > h5:first-child,
+      & > h6:first-child {
+         margin-top:0;
+         padding-top:0;
+         margin-bottom:0.5em;
+         margin-left:0;
+         margin-right:0;
+      }
+      h1, h2, h3, h4, h5, h6
+      {
+         text-align:left;
+         margin-top:15px;
+         padding-top:15px;
+         ~ div {   
+            margin-left:0.2em;
+            margin-right:0.2em;
+         }
+      }
+      /* possible fieldset */
+      & > div {
+         padding-left:0;
+         padding-right:0;
+         display:grid;
+         justify-items: start;
+         label {
+            margin:0;
+            padding:0;
+         }
+         input[type=text], input[type=email], textarea {
+            width:98%;
+         }
+      }
+   }
+
+
    /* Square Inputs */
    input[type=text],
    form input[type=password],
@@ -102,7 +161,7 @@ article, .main, main {
    select
    {
       background: #fff;
-      border:1px solid #aaa;
+      border:1px solid #ccc;
    }
    input:focus,
    input:focus,
@@ -126,18 +185,6 @@ article, .main, main {
    form label select:only-of-type,
    form label select:only-of-type {
       min-width:452px;
-   }
-   form,
-   form,
-   h1 ~ form,
-   h1 ~ form
-   {
-      display:block;
-      margin:20px auto;
-      width:450px;
-      padding:20px 40px;
-      border: 1px solid #ddd;
-      border-radius: 10px;
    }
    form table,
    form table
@@ -249,23 +296,6 @@ article, .main, main {
       margin:10px 4px 2px;
       font-weight:normal;
       text-shadow: 0.05em 0.05em 0.02em #ccc;
-   }
-   form h1,
-   form h1,
-   form h2,
-   form h2,
-   form h3,
-   form h3,
-   form h4,
-   form h4,
-   form h5,
-   form h5,
-   form h6,
-   form h6
-   {
-      text-align:left;
-      margin-top:15px;
-      padding-top:15px;
    }
    form fieldset,
    form fieldset {
