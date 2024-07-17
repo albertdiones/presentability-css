@@ -1,0 +1,90 @@
+/* Navigation Bar */
+[itemtype$='/SiteNavigationElement'] > ul , nav > ul {
+   display:block;
+   padding:0;
+   margin:0;
+   list-style:none;
+}
+
+[itemtype$='/SiteNavigationElement'] > ul > li , nav > ul > li {
+   display:inline-block;
+   list-style:none;
+   padding:5px 10px;
+   margin:0;
+   border-left:1px solid #6fd1f6;
+   text-align:left;
+   min-width:90px;
+}
+[itemtype$='/SiteNavigationElement'] > ul > li a, nav > ul > li a, [itemtype$='/SiteNavigationElement'] > ul > li, nav > ul > li {
+   font-weight:bold;
+   color:#005588;
+   font-size: 10px;
+}
+
+[itemtype$='/SiteNavigationElement'] > ul > li:first-child, nav > ul > li:first-child {
+   border-left-width:0px;
+}
+
+[itemtype$='/SiteNavigationElement'] > ul > li ul, nav > ul > li ul {
+   display:none;
+   position:absolute;
+   margin:5px 0 0 -10.5px;
+   border:1px solid #6fd1f6;
+   border-top-style:none;
+   padding-left:0;
+}
+[itemtype$='/SiteNavigationElement'] > ul > li:hover ul, nav > ul > li:hover ul {
+   display:block;
+   background:#fff;
+}
+[itemtype$='/SiteNavigationElement'] > ul > li li, nav > ul > li li {
+   border-bottom:1px solid #6fd1f6;
+   list-style:none;
+   border-collapse:collapse;
+   padding:5px 10px;
+   min-width:93.5px;
+}
+[itemtype$='/SiteNavigationElement'] > ul > li li:hover, nav > ul > li li:hover {
+   background:#eee;
+}
+[itemtype$='/SiteNavigationElement'] > ul > li li:hover a, nav > ul > li li:hover a {
+
+}
+
+/* Breadcrumbs */
+[itemprop="breadcrumb"] {
+   display:block;
+   padding:0 0 10px;
+   margin:0 0 10px;
+   font-size:10px;
+   background:#fff;
+   background-color:transparent;
+}
+[itemprop="breadcrumb"] ul {
+   padding:0;
+   margin:0;
+   background-color:transparent;
+}
+[itemprop="breadcrumb"] ul li a {
+   color:#a67600;
+}
+[itemprop="breadcrumb"] ul li {
+   display: -moz-inline-stack;
+   display: inline-block;
+   zoom: 1;
+   *display: inline;
+   padding:0;
+   margin:0;
+   border-style:none;
+   background-color:transparent;
+}
+[itemprop="breadcrumb"] ul li:before {
+   content:" > ";
+   color:#a67600;
+}
+[itemprop="breadcrumb"] ul li:first-child:before {
+   content: "";
+}
+[itemprop="breadcrumb"] ul li:last-child {
+   font-weight:bold;
+}

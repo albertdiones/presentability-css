@@ -1,0 +1,95 @@
+table {
+   margin:10px auto;
+   max-width:90%;
+   box-shadow: 0 0 2px #00709B;
+   width:100%;
+   border:2px solid #00709B;
+   border-radius:5px;
+   border-collapse:separate;
+}
+table caption, table thead, table tbody, table tfoot {
+   border-collapse:collapse;
+}
+table th {
+   background:#eee;
+   font-weight:bold;
+}
+table tbody th {
+   text-align:center;
+}
+table tbody th:only-of-type {
+   width:60px;
+   text-align:right;
+}
+table tbody th + td {
+   text-align:left;
+}
+table tbody td {
+   background:#fff;
+   color:#000;
+}
+table th, table td {
+   border-bottom:1px solid #ddd;
+   padding:5px 10px;
+}
+table *[data-href] {
+   cursor:pointer;
+}
+table *[data-href]:hover td {
+   background-color:#ffd;
+   color:#1982D1;
+}
+table caption {
+   padding: 5px 10px 0;
+   color: #BF4930;
+   font-family: 'Droid Serif',Georgia,"Times New Roman",Times,serif;
+   font-size: 14px;
+   font-weight: normal;
+   text-shadow: 0.05em 0.05em 0.02em #CCCCCC;
+   text-transform: uppercase;
+}
+/* table labels */
+table thead tr:first-child th, table thead tr:only-child td, table tbody th:only-of-type, table tbody th {
+   background: #00709B;
+   color: #fff;
+   white-space: nowrap;
+   box-shadow: 0 0 2px #00709B;
+   font-weight: bold;
+}
+table thead tr:first-child th:first-child {
+   border-radius:2px 0 0 0;
+}
+table thead tr:first-child th:last-child {
+   border-radius:0 2px 0 0;
+}
+table thead tr:first-child th:only-child {
+   border-radius:2px 2px 0 0;
+}
+
+table tbody tr td {
+   border-bottom-style:none;
+   background:#e0e0e0;
+}
+table tbody tr td:nth-child(odd) {
+   background:#e8e8e8;
+}
+table tbody tr:nth-child(odd) td {
+   background:#d0d0d0;
+}
+table tbody tr:nth-child(odd) td:nth-child(odd) {
+   background:#d8d8d8;
+}
+table tfoot tr td {
+   background:#00709B;
+   color:#fff;
+   border-style:none;
+}
+table tfoot tr:last-child td:first-child {
+   border-radius:0 0 0 2px;
+}
+table tfoot tr:last-child td:last-child {
+   border-radius:0 0 2px 0;
+}
+table tfoot tr:last-child td:only-child {
+   border-radius:0 0 2px 2px;
+}
