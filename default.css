@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Presentable CSS - CSS for developers
  * @version 1.0
@@ -119,6 +120,774 @@ table tfoot tr:last-child td:last-child {
 
 table tfoot tr:last-child td:only-child {
   border-radius: 0 0 2px 2px;
+}
+
+article, .main, main {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-height: 100px;
+  padding: 10px 20px;
+  color: #000;
+  display: block;
+  float: none;
+  /* Forms on main */
+  /* Square Inputs */
+  /* Single Line Inputs beside labels */
+  /* Text Inputs Inside Labels */
+  /* Radio Or Checkboxes Inside Label */
+  /* Radio Or Checkboxes after label */
+  /* Only Button */
+  /* buttons beside each other */
+  /* All Inputs */
+  /**
+  * Header Titles
+  */
+  /* Temporary also include main h1 */
+  /* When two headers are placed after the other */
+  /**
+  * Lists
+  */
+}
+article a, article label, .main a, .main label, main a, main label {
+  color: #0035A5;
+}
+article > form, article > h1 ~ form:last-child, .main > form, .main > h1 ~ form:last-child, main > form, main > h1 ~ form:last-child {
+  display: block;
+  margin: 2em 0em;
+  padding: 1em 1em;
+  border: 1px dashed #e0e0e0;
+  border-radius: 5px;
+  width: 45em;
+  /* Solo form */
+  /* possible fieldset */
+}
+article > form:only-child, article > form:last-child, article > h1 ~ form:last-child:only-child, article > h1 ~ form:last-child:last-child, .main > form:only-child, .main > form:last-child, .main > h1 ~ form:last-child:only-child, .main > h1 ~ form:last-child:last-child, main > form:only-child, main > form:last-child, main > h1 ~ form:last-child:only-child, main > h1 ~ form:last-child:last-child {
+  padding: 2em 4em;
+}
+article > form > h1:first-child, article > form > h2:first-child, article > form > h3:first-child, article > form > h4:first-child, article > form > h5:first-child, article > form > h6:first-child, article > h1 ~ form:last-child > h1:first-child, article > h1 ~ form:last-child > h2:first-child, article > h1 ~ form:last-child > h3:first-child, article > h1 ~ form:last-child > h4:first-child, article > h1 ~ form:last-child > h5:first-child, article > h1 ~ form:last-child > h6:first-child, .main > form > h1:first-child, .main > form > h2:first-child, .main > form > h3:first-child, .main > form > h4:first-child, .main > form > h5:first-child, .main > form > h6:first-child, .main > h1 ~ form:last-child > h1:first-child, .main > h1 ~ form:last-child > h2:first-child, .main > h1 ~ form:last-child > h3:first-child, .main > h1 ~ form:last-child > h4:first-child, .main > h1 ~ form:last-child > h5:first-child, .main > h1 ~ form:last-child > h6:first-child, main > form > h1:first-child, main > form > h2:first-child, main > form > h3:first-child, main > form > h4:first-child, main > form > h5:first-child, main > form > h6:first-child, main > h1 ~ form:last-child > h1:first-child, main > h1 ~ form:last-child > h2:first-child, main > h1 ~ form:last-child > h3:first-child, main > h1 ~ form:last-child > h4:first-child, main > h1 ~ form:last-child > h5:first-child, main > h1 ~ form:last-child > h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
+}
+article > form h1, article > form h2, article > form h3, article > form h4, article > form h5, article > form h6, article > h1 ~ form:last-child h1, article > h1 ~ form:last-child h2, article > h1 ~ form:last-child h3, article > h1 ~ form:last-child h4, article > h1 ~ form:last-child h5, article > h1 ~ form:last-child h6, .main > form h1, .main > form h2, .main > form h3, .main > form h4, .main > form h5, .main > form h6, .main > h1 ~ form:last-child h1, .main > h1 ~ form:last-child h2, .main > h1 ~ form:last-child h3, .main > h1 ~ form:last-child h4, .main > h1 ~ form:last-child h5, .main > h1 ~ form:last-child h6, main > form h1, main > form h2, main > form h3, main > form h4, main > form h5, main > form h6, main > h1 ~ form:last-child h1, main > h1 ~ form:last-child h2, main > h1 ~ form:last-child h3, main > h1 ~ form:last-child h4, main > h1 ~ form:last-child h5, main > h1 ~ form:last-child h6 {
+  text-align: left;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+article > form h1 ~ div, article > form h2 ~ div, article > form h3 ~ div, article > form h4 ~ div, article > form h5 ~ div, article > form h6 ~ div, article > h1 ~ form:last-child h1 ~ div, article > h1 ~ form:last-child h2 ~ div, article > h1 ~ form:last-child h3 ~ div, article > h1 ~ form:last-child h4 ~ div, article > h1 ~ form:last-child h5 ~ div, article > h1 ~ form:last-child h6 ~ div, .main > form h1 ~ div, .main > form h2 ~ div, .main > form h3 ~ div, .main > form h4 ~ div, .main > form h5 ~ div, .main > form h6 ~ div, .main > h1 ~ form:last-child h1 ~ div, .main > h1 ~ form:last-child h2 ~ div, .main > h1 ~ form:last-child h3 ~ div, .main > h1 ~ form:last-child h4 ~ div, .main > h1 ~ form:last-child h5 ~ div, .main > h1 ~ form:last-child h6 ~ div, main > form h1 ~ div, main > form h2 ~ div, main > form h3 ~ div, main > form h4 ~ div, main > form h5 ~ div, main > form h6 ~ div, main > h1 ~ form:last-child h1 ~ div, main > h1 ~ form:last-child h2 ~ div, main > h1 ~ form:last-child h3 ~ div, main > h1 ~ form:last-child h4 ~ div, main > h1 ~ form:last-child h5 ~ div, main > h1 ~ form:last-child h6 ~ div {
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+}
+article > form > div, article > h1 ~ form:last-child > div, .main > form > div, .main > h1 ~ form:last-child > div, main > form > div, main > h1 ~ form:last-child > div {
+  padding-left: 0;
+  padding-right: 0;
+  display: grid;
+  justify-items: start;
+}
+article > form > div label, article > h1 ~ form:last-child > div label, .main > form > div label, .main > h1 ~ form:last-child > div label, main > form > div label, main > h1 ~ form:last-child > div label {
+  margin: 0;
+  padding: 0;
+}
+article > form > div input[type=text], article > form > div input[type=email], article > form > div textarea, article > h1 ~ form:last-child > div input[type=text], article > h1 ~ form:last-child > div input[type=email], article > h1 ~ form:last-child > div textarea, .main > form > div input[type=text], .main > form > div input[type=email], .main > form > div textarea, .main > h1 ~ form:last-child > div input[type=text], .main > h1 ~ form:last-child > div input[type=email], .main > h1 ~ form:last-child > div textarea, main > form > div input[type=text], main > form > div input[type=email], main > form > div textarea, main > h1 ~ form:last-child > div input[type=text], main > h1 ~ form:last-child > div input[type=email], main > h1 ~ form:last-child > div textarea {
+  width: 98%;
+}
+article input[type=text],
+article form input[type=password],
+article form input[type=email],
+article form textarea, .main input[type=text],
+.main form input[type=password],
+.main form input[type=email],
+.main form textarea, main input[type=text],
+main form input[type=password],
+main form input[type=email],
+main form textarea {
+  display: block;
+  margin: 2px auto;
+  padding: 2px 5px;
+  width: 200px;
+  height: 30px;
+  line-height: 35px;
+}
+article form textarea,
+article form textarea, .main form textarea,
+.main form textarea, main form textarea,
+main form textarea {
+  display: block;
+  width: 97%;
+  height: 120px;
+  margin: 0;
+}
+article form label + input[type=text],
+article form label + input[type=password],
+article form label + input[type=email],
+article form label + select, .main form label + input[type=text],
+.main form label + input[type=password],
+.main form label + input[type=email],
+.main form label + select, main form label + input[type=text],
+main form label + input[type=password],
+main form label + input[type=email],
+main form label + select {
+  display: inline-block;
+}
+article form label textarea, .main form label textarea, main form label textarea {
+  width: auto;
+}
+article form label input[type=text]:only-of-type,
+article form label input[type=text]:only-of-type,
+article form label input[type=password]:only-of-type,
+article form label input[type=password]:only-of-type,
+article form label input[type=email]:only-of-type,
+article form label input[type=email]:only-of-type,
+article form label textarea:only-of-type,
+article form label textarea:only-of-type, .main form label input[type=text]:only-of-type,
+.main form label input[type=text]:only-of-type,
+.main form label input[type=password]:only-of-type,
+.main form label input[type=password]:only-of-type,
+.main form label input[type=email]:only-of-type,
+.main form label input[type=email]:only-of-type,
+.main form label textarea:only-of-type,
+.main form label textarea:only-of-type, main form label input[type=text]:only-of-type,
+main form label input[type=text]:only-of-type,
+main form label input[type=password]:only-of-type,
+main form label input[type=password]:only-of-type,
+main form label input[type=email]:only-of-type,
+main form label input[type=email]:only-of-type,
+main form label textarea:only-of-type,
+main form label textarea:only-of-type {
+  margin: 0;
+  min-width: 439px;
+}
+article form label input[type=radio],
+article form label input[type=radio],
+article form label input[type=checkbox],
+article form label input[type=checkbox], .main form label input[type=radio],
+.main form label input[type=radio],
+.main form label input[type=checkbox],
+.main form label input[type=checkbox], main form label input[type=radio],
+main form label input[type=radio],
+main form label input[type=checkbox],
+main form label input[type=checkbox] {
+  top: -0.4em;
+  position: relative;
+  margin-top: 0.5em;
+}
+article form label + input[type=radio],
+article form label + input[type=radio],
+article form label + input[type=checkbox],
+article form label + input[type=checkbox], .main form label + input[type=radio],
+.main form label + input[type=radio],
+.main form label + input[type=checkbox],
+.main form label + input[type=checkbox], main form label + input[type=radio],
+main form label + input[type=radio],
+main form label + input[type=checkbox],
+main form label + input[type=checkbox] {
+  position: relative;
+  top: 2px;
+}
+article form label,
+article form label, .main form label,
+.main form label, main form label,
+main form label {
+  display: inline-block;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: left;
+  margin: 10px 0px 10px 0;
+}
+article input[type=text],
+article input[type=text],
+article form input[type=password],
+article form input[type=password],
+article form input[type=email],
+article form input[type=email], .main input[type=text],
+.main input[type=text],
+.main form input[type=password],
+.main form input[type=password],
+.main form input[type=email],
+.main form input[type=email], main input[type=text],
+main input[type=text],
+main form input[type=password],
+main form input[type=password],
+main form input[type=email],
+main form input[type=email] {
+  width: 60%;
+}
+article input,
+article input,
+article textarea,
+article textarea,
+article select select, .main input,
+.main input,
+.main textarea,
+.main textarea,
+.main select select, main input,
+main input,
+main textarea,
+main textarea,
+main select select {
+  background: #fff;
+  border: 1px solid #ccc;
+}
+article input:focus,
+article input:focus,
+article textarea:focus,
+article textarea:focus,
+article select:focus select:focus, .main input:focus,
+.main input:focus,
+.main textarea:focus,
+.main textarea:focus,
+.main select:focus select:focus, main input:focus,
+main input:focus,
+main textarea:focus,
+main textarea:focus,
+main select:focus select:focus {
+  box-shadow: 0 0 5px 0 #1982D1 inset;
+  border-color: #1982D1;
+}
+article select,
+article select, .main select,
+.main select, main select,
+main select {
+  min-width: 100px;
+  height: 35px;
+  padding: 8px 2px;
+  text-transform: none;
+}
+article form label select:only-of-type,
+article form label select:only-of-type, .main form label select:only-of-type,
+.main form label select:only-of-type, main form label select:only-of-type,
+main form label select:only-of-type {
+  min-width: 452px;
+}
+article form table,
+article form table, .main form table,
+.main form table, main form table,
+main form table {
+  margin: 0;
+}
+article input[type=submit],
+article input[type=submit],
+article button,
+article button, .main input[type=submit],
+.main input[type=submit],
+.main button,
+.main button, main input[type=submit],
+main input[type=submit],
+main button,
+main button {
+  background-color: #00ADEE;
+  border-color: #888888;
+  border-radius: 10px 10px 10px 10px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  color: #FFFFFF;
+  display: inline-block;
+  font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  height: 35px;
+  min-width: 30%;
+  letter-spacing: 2px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  margin: 10px 5%;
+}
+article input[type=submit]:last-child,
+article input[type=submit]:last-child,
+article button:last-child,
+article button:last-child, .main input[type=submit]:last-child,
+.main input[type=submit]:last-child,
+.main button:last-child,
+.main button:last-child, main input[type=submit]:last-child,
+main input[type=submit]:last-child,
+main button:last-child,
+main button:last-child {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+article input[type=submit]:active,
+article input[type=submit]:active,
+article button:active,
+article button:active,
+article button:active,
+article button:active, .main input[type=submit]:active,
+.main input[type=submit]:active,
+.main button:active,
+.main button:active,
+.main button:active,
+.main button:active, main input[type=submit]:active,
+main input[type=submit]:active,
+main button:active,
+main button:active,
+main button:active,
+main button:active {
+  background-color: #00A9EA;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3) inset;
+}
+article input[type=submit] + input[type=submit],
+article input[type=submit] + input[type=submit],
+article input[type=submit] + button,
+article input[type=submit] + button,
+article button + input[type=submit],
+article button + input[type=submit],
+article button + button,
+article button + button, .main input[type=submit] + input[type=submit],
+.main input[type=submit] + input[type=submit],
+.main input[type=submit] + button,
+.main input[type=submit] + button,
+.main button + input[type=submit],
+.main button + input[type=submit],
+.main button + button,
+.main button + button, main input[type=submit] + input[type=submit],
+main input[type=submit] + input[type=submit],
+main input[type=submit] + button,
+main input[type=submit] + button,
+main button + input[type=submit],
+main button + input[type=submit],
+main button + button,
+main button + button {
+  display: inline-block;
+  margin-left: 0px;
+}
+article input:only-of-type + button, .main input:only-of-type + button, main input:only-of-type + button {
+  display: inline-block;
+}
+article input[type=text],
+article input[type=text],
+article form input[type=password],
+article input[type=password],
+article input[type=email],
+article input[type=email],
+article select,
+article select,
+article input[type=submit],
+article input[type=submit],
+article button,
+article form button, .main input[type=text],
+.main input[type=text],
+.main form input[type=password],
+.main input[type=password],
+.main input[type=email],
+.main input[type=email],
+.main select,
+.main select,
+.main input[type=submit],
+.main input[type=submit],
+.main button,
+.main form button, main input[type=text],
+main input[type=text],
+main form input[type=password],
+main input[type=password],
+main input[type=email],
+main input[type=email],
+main select,
+main select,
+main input[type=submit],
+main input[type=submit],
+main button,
+main form button {
+  cursor: pointer;
+}
+article h1,
+article h1,
+article h2,
+article h2,
+article h3,
+article h3,
+article h4,
+article h4,
+article h5,
+article h5,
+article h6 h6, .main h1,
+.main h1,
+.main h2,
+.main h2,
+.main h3,
+.main h3,
+.main h4,
+.main h4,
+.main h5,
+.main h5,
+.main h6 h6, main h1,
+main h1,
+main h2,
+main h2,
+main h3,
+main h3,
+main h4,
+main h4,
+main h5,
+main h5,
+main h6 h6 {
+  color: #00A768;
+  font-size: 16px;
+  font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  margin: 10px 4px 2px;
+  font-weight: normal;
+  text-shadow: 0.05em 0.05em 0.02em #ccc;
+}
+article form fieldset,
+article form fieldset, .main form fieldset,
+.main form fieldset, main form fieldset,
+main form fieldset {
+  width: auto;
+  border: none;
+  padding: 0 0 10px;
+  margin: 0 0 10px;
+}
+article h1,
+article h1, .main h1,
+.main h1, main h1,
+main h1 {
+  color: #00A768;
+  font-size: 26px;
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+article h2,
+article h2, .main h2,
+.main h2, main h2,
+main h2 {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+article h3,
+article h3, .main h3,
+.main h3, main h3,
+main h3 {
+  margin-left: 15px;
+  color: #000;
+  font-family: verdana;
+  font-size: 10px;
+  font-weight: bold;
+}
+article h4,
+article h4, .main h4,
+.main h4, main h4,
+main h4 {
+  margin-left: 20px;
+}
+article h5,
+article h5, .main h5,
+.main h5, main h5,
+main h5 {
+  margin-left: 25px;
+}
+article h6,
+article h6, .main h6,
+.main h6, main h6,
+main h6 {
+  margin-left: 30px;
+}
+article form h2,
+article form h2, .main form h2,
+.main form h2, main form h2,
+main form h2 {
+  text-align: center;
+}
+article h1 ~ div,
+article h1 ~ div,
+article h1 ~ ul,
+article h1 ~ ul,
+article h1 ~ dl,
+article h1 ~ dl,
+article h1 ~ p,
+article h1 ~ p,
+article h1 ~ h2,
+article h1 ~ h2,
+article h1 ~ h3,
+article h1 ~ h3,
+article h1 ~ h4,
+article h1 ~ h4,
+article h1 ~ h5,
+article h1 ~ h5,
+article h1 ~ h6,
+article h1 ~ h6,
+article h1 ~ xmp,
+article h1 ~ xmp,
+article h1 ~ small,
+article h1 ~ small, .main h1 ~ div,
+.main h1 ~ div,
+.main h1 ~ ul,
+.main h1 ~ ul,
+.main h1 ~ dl,
+.main h1 ~ dl,
+.main h1 ~ p,
+.main h1 ~ p,
+.main h1 ~ h2,
+.main h1 ~ h2,
+.main h1 ~ h3,
+.main h1 ~ h3,
+.main h1 ~ h4,
+.main h1 ~ h4,
+.main h1 ~ h5,
+.main h1 ~ h5,
+.main h1 ~ h6,
+.main h1 ~ h6,
+.main h1 ~ xmp,
+.main h1 ~ xmp,
+.main h1 ~ small,
+.main h1 ~ small, main h1 ~ div,
+main h1 ~ div,
+main h1 ~ ul,
+main h1 ~ ul,
+main h1 ~ dl,
+main h1 ~ dl,
+main h1 ~ p,
+main h1 ~ p,
+main h1 ~ h2,
+main h1 ~ h2,
+main h1 ~ h3,
+main h1 ~ h3,
+main h1 ~ h4,
+main h1 ~ h4,
+main h1 ~ h5,
+main h1 ~ h5,
+main h1 ~ h6,
+main h1 ~ h6,
+main h1 ~ xmp,
+main h1 ~ xmp,
+main h1 ~ small,
+main h1 ~ small {
+  margin-left: 5px;
+}
+article h2 ~ div,
+article h2 ~ div,
+article h2 ~ ul,
+article h2 ~ ul,
+article h2 ~ dl,
+article h2 ~ dl,
+article h2 ~ p,
+article h2 ~ p,
+article h2 ~ h3,
+article h2 ~ h3,
+article h2 ~ h4,
+article h2 ~ h4,
+article h2 ~ h5,
+article h2 ~ h5,
+article h2 ~ h6,
+article h2 ~ h6,
+article h2 ~ nav,
+article h2 ~ xmp,
+article h2 ~ xmp,
+article h2 ~ small,
+article h2 ~ small, .main h2 ~ div,
+.main h2 ~ div,
+.main h2 ~ ul,
+.main h2 ~ ul,
+.main h2 ~ dl,
+.main h2 ~ dl,
+.main h2 ~ p,
+.main h2 ~ p,
+.main h2 ~ h3,
+.main h2 ~ h3,
+.main h2 ~ h4,
+.main h2 ~ h4,
+.main h2 ~ h5,
+.main h2 ~ h5,
+.main h2 ~ h6,
+.main h2 ~ h6,
+.main h2 ~ nav,
+.main h2 ~ xmp,
+.main h2 ~ xmp,
+.main h2 ~ small,
+.main h2 ~ small, main h2 ~ div,
+main h2 ~ div,
+main h2 ~ ul,
+main h2 ~ ul,
+main h2 ~ dl,
+main h2 ~ dl,
+main h2 ~ p,
+main h2 ~ p,
+main h2 ~ h3,
+main h2 ~ h3,
+main h2 ~ h4,
+main h2 ~ h4,
+main h2 ~ h5,
+main h2 ~ h5,
+main h2 ~ h6,
+main h2 ~ h6,
+main h2 ~ nav,
+main h2 ~ xmp,
+main h2 ~ xmp,
+main h2 ~ small,
+main h2 ~ small {
+  margin-left: 10px;
+}
+article h3 ~ div,
+article h3 ~ ul,
+article h3 ~ p,
+article h3 ~ dl,
+article h3 ~ h4,
+article h3 ~ h5,
+article h3 ~ h6,
+article h3 ~ nav,
+article h3 ~ xmp,
+article h3 ~ small, .main h3 ~ div,
+.main h3 ~ ul,
+.main h3 ~ p,
+.main h3 ~ dl,
+.main h3 ~ h4,
+.main h3 ~ h5,
+.main h3 ~ h6,
+.main h3 ~ nav,
+.main h3 ~ xmp,
+.main h3 ~ small, main h3 ~ div,
+main h3 ~ ul,
+main h3 ~ p,
+main h3 ~ dl,
+main h3 ~ h4,
+main h3 ~ h5,
+main h3 ~ h6,
+main h3 ~ nav,
+main h3 ~ xmp,
+main h3 ~ small {
+  margin-left: 15px;
+}
+article h4 ~ div,
+article h4 ~ ul,
+article h4 ~ p,
+article h4 ~ h5,
+article h4 ~ h6,
+article h4 ~ xmp,
+article h4 ~ small, .main h4 ~ div,
+.main h4 ~ ul,
+.main h4 ~ p,
+.main h4 ~ h5,
+.main h4 ~ h6,
+.main h4 ~ xmp,
+.main h4 ~ small, main h4 ~ div,
+main h4 ~ ul,
+main h4 ~ p,
+main h4 ~ h5,
+main h4 ~ h6,
+main h4 ~ xmp,
+main h4 ~ small {
+  margin-left: 15px;
+}
+article h1 ~ p,
+article h2 ~ p,
+article h3 ~ p,
+article h4 ~ p,
+article h5 ~ p,
+article h6 ~ p, .main h1 ~ p,
+.main h2 ~ p,
+.main h3 ~ p,
+.main h4 ~ p,
+.main h5 ~ p,
+.main h6 ~ p, main h1 ~ p,
+main h2 ~ p,
+main h3 ~ p,
+main h4 ~ p,
+main h5 ~ p,
+main h6 ~ p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+article h1 + h2,
+article h1 + h2, .main h1 + h2,
+.main h1 + h2, main h1 + h2,
+main h1 + h2 {
+  margin-top: 0px;
+}
+article .error_message,
+article form label.error, .main .error_message,
+.main form label.error, main .error_message,
+main form label.error {
+  color: red;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+}
+article form label.error, .main form label.error, main form label.error {
+  margin: 0;
+  padding: 0;
+}
+article thead th.search form, .main thead th.search form, main thead th.search form {
+  background: transparent;
+  width: auto;
+  border-style: none;
+  margin: 0;
+  padding: 0;
+}
+article thead th.search form input[type=text],
+article thead th.search form select, .main thead th.search form input[type=text],
+.main thead th.search form select, main thead th.search form input[type=text],
+main thead th.search form select {
+  width: 200px;
+}
+article thead th.search form input[type=text],
+article thead th.search form select,
+article thead th.search form button,
+article thead th.search form input[type=submit], .main thead th.search form input[type=text],
+.main thead th.search form select,
+.main thead th.search form button,
+.main thead th.search form input[type=submit], main thead th.search form input[type=text],
+main thead th.search form select,
+main thead th.search form button,
+main thead th.search form input[type=submit] {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  height: 28px;
+}
+article thead th.search form select, .main thead th.search form select, main thead th.search form select {
+  height: 26px;
+}
+article ol,
+article ul, .main ol,
+.main ul, main ol,
+main ul {
+  list-style: none;
+  padding-left: 20px;
+}
+article ul ul,
+article ul ol,
+article ol ul,
+article ol ol, .main ul ul,
+.main ul ol,
+.main ol ul,
+.main ol ol, main ul ul,
+main ul ol,
+main ol ul,
+main ol ol {
+  border-top: 1px solid #eee;
+  padding-bottom: 5px;
+}
+article ul li,
+article ol li, .main ul li,
+.main ol li, main ul li,
+main ol li {
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+article ul > li:before,
+article ol > li:before, .main ul > li:before,
+.main ol > li:before, main ul > li:before,
+main ol > li:before {
+  color: #00ADEE;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+article ul > li:before, .main ul > li:before, main ul > li:before {
+  content: "■";
+  color: #00709B;
+  text-shadow: 0 0 2px;
+}
+article ol, .main ol, main ol {
+  counter-reset: item;
+}
+article ol > li:before, .main ol > li:before, main ol > li:before {
+  content: counter(item) ". ";
+  counter-increment: item;
+  text-shadow: 0.5px 0.5px 0.08px #999;
 }
 
 /* Navigation Bar */
