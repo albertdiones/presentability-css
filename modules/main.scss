@@ -12,8 +12,7 @@ article, .main, main {
    }
 
    /* Forms on main */
-   & > form,
-   & > h1 ~ form:last-child
+   form
    {
       display:block;
       margin:2em 0em;
@@ -25,7 +24,9 @@ article, .main, main {
 
       /* Solo form */
       &:only-child,
-      &:last-child
+      h1 ~ form:last-child,
+      h2 ~ form:last-child,
+      h3 ~ form:last-child
       {
          padding:2em 4em;
       }      

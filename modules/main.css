@@ -28,7 +28,7 @@ article, .main, main {
 article a, article label, .main a, .main label, main a, main label {
   color: #0035A5;
 }
-article > form, article > h1 ~ form:last-child, .main > form, .main > h1 ~ form:last-child, main > form, main > h1 ~ form:last-child {
+article form, .main form, main form {
   display: block;
   margin: 2em 0em;
   padding: 1em 1em;
@@ -39,36 +39,45 @@ article > form, article > h1 ~ form:last-child, .main > form, .main > h1 ~ form:
   /* Solo form */
   /* fieldsets and possible fieldset */
 }
-article > form:only-child, article > form:last-child, article > h1 ~ form:last-child:only-child, article > h1 ~ form:last-child:last-child, .main > form:only-child, .main > form:last-child, .main > h1 ~ form:last-child:only-child, .main > h1 ~ form:last-child:last-child, main > form:only-child, main > form:last-child, main > h1 ~ form:last-child:only-child, main > h1 ~ form:last-child:last-child {
+article form:only-child,
+article form h1 ~ form:last-child,
+article form h2 ~ form:last-child,
+article form h3 ~ form:last-child, .main form:only-child,
+.main form h1 ~ form:last-child,
+.main form h2 ~ form:last-child,
+.main form h3 ~ form:last-child, main form:only-child,
+main form h1 ~ form:last-child,
+main form h2 ~ form:last-child,
+main form h3 ~ form:last-child {
   padding: 2em 4em;
 }
-article > form > h1:first-child, article > form > h2:first-child, article > form > h3:first-child, article > form > h4:first-child, article > form > h5:first-child, article > form > h6:first-child, article > h1 ~ form:last-child > h1:first-child, article > h1 ~ form:last-child > h2:first-child, article > h1 ~ form:last-child > h3:first-child, article > h1 ~ form:last-child > h4:first-child, article > h1 ~ form:last-child > h5:first-child, article > h1 ~ form:last-child > h6:first-child, .main > form > h1:first-child, .main > form > h2:first-child, .main > form > h3:first-child, .main > form > h4:first-child, .main > form > h5:first-child, .main > form > h6:first-child, .main > h1 ~ form:last-child > h1:first-child, .main > h1 ~ form:last-child > h2:first-child, .main > h1 ~ form:last-child > h3:first-child, .main > h1 ~ form:last-child > h4:first-child, .main > h1 ~ form:last-child > h5:first-child, .main > h1 ~ form:last-child > h6:first-child, main > form > h1:first-child, main > form > h2:first-child, main > form > h3:first-child, main > form > h4:first-child, main > form > h5:first-child, main > form > h6:first-child, main > h1 ~ form:last-child > h1:first-child, main > h1 ~ form:last-child > h2:first-child, main > h1 ~ form:last-child > h3:first-child, main > h1 ~ form:last-child > h4:first-child, main > h1 ~ form:last-child > h5:first-child, main > h1 ~ form:last-child > h6:first-child {
+article form > h1:first-child, article form > h2:first-child, article form > h3:first-child, article form > h4:first-child, article form > h5:first-child, article form > h6:first-child, .main form > h1:first-child, .main form > h2:first-child, .main form > h3:first-child, .main form > h4:first-child, .main form > h5:first-child, .main form > h6:first-child, main form > h1:first-child, main form > h2:first-child, main form > h3:first-child, main form > h4:first-child, main form > h5:first-child, main form > h6:first-child {
   margin-top: 0;
   padding-top: 0;
   margin-bottom: 0.5em;
   margin-left: 0;
   margin-right: 0;
 }
-article > form h1, article > form h2, article > form h3, article > form h4, article > form h5, article > form h6, article > h1 ~ form:last-child h1, article > h1 ~ form:last-child h2, article > h1 ~ form:last-child h3, article > h1 ~ form:last-child h4, article > h1 ~ form:last-child h5, article > h1 ~ form:last-child h6, .main > form h1, .main > form h2, .main > form h3, .main > form h4, .main > form h5, .main > form h6, .main > h1 ~ form:last-child h1, .main > h1 ~ form:last-child h2, .main > h1 ~ form:last-child h3, .main > h1 ~ form:last-child h4, .main > h1 ~ form:last-child h5, .main > h1 ~ form:last-child h6, main > form h1, main > form h2, main > form h3, main > form h4, main > form h5, main > form h6, main > h1 ~ form:last-child h1, main > h1 ~ form:last-child h2, main > h1 ~ form:last-child h3, main > h1 ~ form:last-child h4, main > h1 ~ form:last-child h5, main > h1 ~ form:last-child h6 {
+article form h1, article form h2, article form h3, article form h4, article form h5, article form h6, .main form h1, .main form h2, .main form h3, .main form h4, .main form h5, .main form h6, main form h1, main form h2, main form h3, main form h4, main form h5, main form h6 {
   text-align: left;
   margin-top: 15px;
   padding-top: 15px;
 }
-article > form h1 ~ div, article > form h2 ~ div, article > form h3 ~ div, article > form h4 ~ div, article > form h5 ~ div, article > form h6 ~ div, article > h1 ~ form:last-child h1 ~ div, article > h1 ~ form:last-child h2 ~ div, article > h1 ~ form:last-child h3 ~ div, article > h1 ~ form:last-child h4 ~ div, article > h1 ~ form:last-child h5 ~ div, article > h1 ~ form:last-child h6 ~ div, .main > form h1 ~ div, .main > form h2 ~ div, .main > form h3 ~ div, .main > form h4 ~ div, .main > form h5 ~ div, .main > form h6 ~ div, .main > h1 ~ form:last-child h1 ~ div, .main > h1 ~ form:last-child h2 ~ div, .main > h1 ~ form:last-child h3 ~ div, .main > h1 ~ form:last-child h4 ~ div, .main > h1 ~ form:last-child h5 ~ div, .main > h1 ~ form:last-child h6 ~ div, main > form h1 ~ div, main > form h2 ~ div, main > form h3 ~ div, main > form h4 ~ div, main > form h5 ~ div, main > form h6 ~ div, main > h1 ~ form:last-child h1 ~ div, main > h1 ~ form:last-child h2 ~ div, main > h1 ~ form:last-child h3 ~ div, main > h1 ~ form:last-child h4 ~ div, main > h1 ~ form:last-child h5 ~ div, main > h1 ~ form:last-child h6 ~ div {
+article form h1 ~ div, article form h2 ~ div, article form h3 ~ div, article form h4 ~ div, article form h5 ~ div, article form h6 ~ div, .main form h1 ~ div, .main form h2 ~ div, .main form h3 ~ div, .main form h4 ~ div, .main form h5 ~ div, .main form h6 ~ div, main form h1 ~ div, main form h2 ~ div, main form h3 ~ div, main form h4 ~ div, main form h5 ~ div, main form h6 ~ div {
   margin-left: 0.2em;
   margin-right: 0.2em;
 }
-article > form > div, article > form > fieldset, article > h1 ~ form:last-child > div, article > h1 ~ form:last-child > fieldset, .main > form > div, .main > form > fieldset, .main > h1 ~ form:last-child > div, .main > h1 ~ form:last-child > fieldset, main > form > div, main > form > fieldset, main > h1 ~ form:last-child > div, main > h1 ~ form:last-child > fieldset {
+article form > div, article form > fieldset, .main form > div, .main form > fieldset, main form > div, main form > fieldset {
   padding-left: 0;
   padding-right: 0;
   display: grid;
   justify-items: start;
 }
-article > form > div label, article > form > fieldset label, article > h1 ~ form:last-child > div label, article > h1 ~ form:last-child > fieldset label, .main > form > div label, .main > form > fieldset label, .main > h1 ~ form:last-child > div label, .main > h1 ~ form:last-child > fieldset label, main > form > div label, main > form > fieldset label, main > h1 ~ form:last-child > div label, main > h1 ~ form:last-child > fieldset label {
+article form > div label, article form > fieldset label, .main form > div label, .main form > fieldset label, main form > div label, main form > fieldset label {
   margin: 0;
   padding: 0;
 }
-article > form > div input[type=text], article > form > div input[type=email], article > form > div textarea, article > form > fieldset input[type=text], article > form > fieldset input[type=email], article > form > fieldset textarea, article > h1 ~ form:last-child > div input[type=text], article > h1 ~ form:last-child > div input[type=email], article > h1 ~ form:last-child > div textarea, article > h1 ~ form:last-child > fieldset input[type=text], article > h1 ~ form:last-child > fieldset input[type=email], article > h1 ~ form:last-child > fieldset textarea, .main > form > div input[type=text], .main > form > div input[type=email], .main > form > div textarea, .main > form > fieldset input[type=text], .main > form > fieldset input[type=email], .main > form > fieldset textarea, .main > h1 ~ form:last-child > div input[type=text], .main > h1 ~ form:last-child > div input[type=email], .main > h1 ~ form:last-child > div textarea, .main > h1 ~ form:last-child > fieldset input[type=text], .main > h1 ~ form:last-child > fieldset input[type=email], .main > h1 ~ form:last-child > fieldset textarea, main > form > div input[type=text], main > form > div input[type=email], main > form > div textarea, main > form > fieldset input[type=text], main > form > fieldset input[type=email], main > form > fieldset textarea, main > h1 ~ form:last-child > div input[type=text], main > h1 ~ form:last-child > div input[type=email], main > h1 ~ form:last-child > div textarea, main > h1 ~ form:last-child > fieldset input[type=text], main > h1 ~ form:last-child > fieldset input[type=email], main > h1 ~ form:last-child > fieldset textarea {
+article form > div input[type=text], article form > div input[type=email], article form > div textarea, article form > fieldset input[type=text], article form > fieldset input[type=email], article form > fieldset textarea, .main form > div input[type=text], .main form > div input[type=email], .main form > div textarea, .main form > fieldset input[type=text], .main form > fieldset input[type=email], .main form > fieldset textarea, main form > div input[type=text], main form > div input[type=email], main form > div textarea, main form > fieldset input[type=text], main form > fieldset input[type=email], main form > fieldset textarea {
   width: 98%;
 }
 article input[type=text],
