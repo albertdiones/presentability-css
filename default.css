@@ -158,6 +158,7 @@ article > form, article > h1 ~ form:last-child, .main > form, .main > h1 ~ form:
   border: 1px dashed #e0e0e0;
   border-radius: 5px;
   width: 45em;
+  max-width: 80vw;
   /* Solo form */
   /* possible fieldset */
 }
@@ -1026,7 +1027,6 @@ header,
 }
 
 header > * {
-  width: 900px;
   margin: 0 auto;
 }
 
