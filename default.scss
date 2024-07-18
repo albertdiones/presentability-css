@@ -102,7 +102,27 @@
     font-size:8px;
     text-transform: uppercase;
  }
+
+ header + aside {
+    display:inline-block;
+    width:30em;
+    max-width:30vw;
+    min-height:100vh;
+    vertical-align: top;
+    img {
+        max-width:100%;
+    }
+    
+    & + main {
+        display:inline-block;
+        vertical-align: top;
+        width:65vw;
+        min-height:100vh;
+        border-left:1px solid #d8d8d8;
+    }
+ }
  
  div.cb {
     clear:both;
  }
+

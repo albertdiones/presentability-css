@@ -1098,6 +1098,24 @@ footer .generator,
   text-transform: uppercase;
 }
 
+header + aside {
+  display: inline-block;
+  width: 30em;
+  max-width: 30vw;
+  min-height: 100vh;
+  vertical-align: top;
+}
+header + aside img {
+  max-width: 100%;
+}
+header + aside + main {
+  display: inline-block;
+  vertical-align: top;
+  width: 65vw;
+  min-height: 100vh;
+  border-left: 1px solid #d8d8d8;
+}
+
 div.cb {
   clear: both;
 }/*# sourceMappingURL=default.css.map */
