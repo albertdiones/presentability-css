@@ -37,7 +37,7 @@ article > form, article > h1 ~ form:last-child, .main > form, .main > h1 ~ form:
   width: 45em;
   max-width: 98vw;
   /* Solo form */
-  /* possible fieldset */
+  /* fieldsets and possible fieldset */
 }
 article > form:only-child, article > form:last-child, article > h1 ~ form:last-child:only-child, article > h1 ~ form:last-child:last-child, .main > form:only-child, .main > form:last-child, .main > h1 ~ form:last-child:only-child, .main > h1 ~ form:last-child:last-child, main > form:only-child, main > form:last-child, main > h1 ~ form:last-child:only-child, main > h1 ~ form:last-child:last-child {
   padding: 2em 4em;
@@ -58,17 +58,17 @@ article > form h1 ~ div, article > form h2 ~ div, article > form h3 ~ div, artic
   margin-left: 0.2em;
   margin-right: 0.2em;
 }
-article > form > div, article > h1 ~ form:last-child > div, .main > form > div, .main > h1 ~ form:last-child > div, main > form > div, main > h1 ~ form:last-child > div {
+article > form > div, article > form > fieldset, article > h1 ~ form:last-child > div, article > h1 ~ form:last-child > fieldset, .main > form > div, .main > form > fieldset, .main > h1 ~ form:last-child > div, .main > h1 ~ form:last-child > fieldset, main > form > div, main > form > fieldset, main > h1 ~ form:last-child > div, main > h1 ~ form:last-child > fieldset {
   padding-left: 0;
   padding-right: 0;
   display: grid;
   justify-items: start;
 }
-article > form > div label, article > h1 ~ form:last-child > div label, .main > form > div label, .main > h1 ~ form:last-child > div label, main > form > div label, main > h1 ~ form:last-child > div label {
+article > form > div label, article > form > fieldset label, article > h1 ~ form:last-child > div label, article > h1 ~ form:last-child > fieldset label, .main > form > div label, .main > form > fieldset label, .main > h1 ~ form:last-child > div label, .main > h1 ~ form:last-child > fieldset label, main > form > div label, main > form > fieldset label, main > h1 ~ form:last-child > div label, main > h1 ~ form:last-child > fieldset label {
   margin: 0;
   padding: 0;
 }
-article > form > div input[type=text], article > form > div input[type=email], article > form > div textarea, article > h1 ~ form:last-child > div input[type=text], article > h1 ~ form:last-child > div input[type=email], article > h1 ~ form:last-child > div textarea, .main > form > div input[type=text], .main > form > div input[type=email], .main > form > div textarea, .main > h1 ~ form:last-child > div input[type=text], .main > h1 ~ form:last-child > div input[type=email], .main > h1 ~ form:last-child > div textarea, main > form > div input[type=text], main > form > div input[type=email], main > form > div textarea, main > h1 ~ form:last-child > div input[type=text], main > h1 ~ form:last-child > div input[type=email], main > h1 ~ form:last-child > div textarea {
+article > form > div input[type=text], article > form > div input[type=email], article > form > div textarea, article > form > fieldset input[type=text], article > form > fieldset input[type=email], article > form > fieldset textarea, article > h1 ~ form:last-child > div input[type=text], article > h1 ~ form:last-child > div input[type=email], article > h1 ~ form:last-child > div textarea, article > h1 ~ form:last-child > fieldset input[type=text], article > h1 ~ form:last-child > fieldset input[type=email], article > h1 ~ form:last-child > fieldset textarea, .main > form > div input[type=text], .main > form > div input[type=email], .main > form > div textarea, .main > form > fieldset input[type=text], .main > form > fieldset input[type=email], .main > form > fieldset textarea, .main > h1 ~ form:last-child > div input[type=text], .main > h1 ~ form:last-child > div input[type=email], .main > h1 ~ form:last-child > div textarea, .main > h1 ~ form:last-child > fieldset input[type=text], .main > h1 ~ form:last-child > fieldset input[type=email], .main > h1 ~ form:last-child > fieldset textarea, main > form > div input[type=text], main > form > div input[type=email], main > form > div textarea, main > form > fieldset input[type=text], main > form > fieldset input[type=email], main > form > fieldset textarea, main > h1 ~ form:last-child > div input[type=text], main > h1 ~ form:last-child > div input[type=email], main > h1 ~ form:last-child > div textarea, main > h1 ~ form:last-child > fieldset input[type=text], main > h1 ~ form:last-child > fieldset input[type=email], main > h1 ~ form:last-child > fieldset textarea {
   width: 98%;
 }
 article input[type=text],

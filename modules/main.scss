@@ -51,8 +51,8 @@ article, .main, main {
             margin-right:0.2em;
          }
       }
-      /* possible fieldset */
-      & > div {
+      /* fieldsets and possible fieldset */
+      & > div, & > fieldset {
          padding-left:0;
          padding-right:0;
          display:grid;
