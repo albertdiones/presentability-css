@@ -1116,6 +1116,24 @@ header + aside + main {
   border-left: 1px solid #d8d8d8;
 }
 
+header + main {
+  display: inline-block;
+  vertical-align: top;
+  width: 65vw;
+  min-height: 100vh;
+}
+header + main + aside {
+  display: inline-block;
+  width: 30em;
+  max-width: 30vw;
+  min-height: 100vh;
+  vertical-align: top;
+  border-left: 1px solid #d8d8d8;
+}
+header + main + aside img {
+  max-width: 100%;
+}
+
 div.cb {
   clear: both;
 }/*# sourceMappingURL=default.css.map */
