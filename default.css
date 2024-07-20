@@ -123,13 +123,14 @@ table tfoot tr:last-child td:only-child {
 }
 
 article, .main, main {
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 10px;
   min-height: 100px;
   padding: 10px 20px;
   color: #000;
   display: block;
   float: none;
+  background: #fff;
   /* Forms on main */
   /* Square Inputs */
   /* Single Line Inputs beside labels */
@@ -1005,6 +1006,7 @@ body, table td, table th {
 }
 
 body {
+  background: #fafafa;
   margin: 0;
   padding: 0;
 }
@@ -1117,18 +1119,27 @@ header + aside + main {
 }
 
 header + main {
-  display: inline-block;
   vertical-align: top;
-  width: 65vw;
+  width: auto;
+  max-width: 65vw;
   min-height: 100vh;
+  float: none;
 }
 header + main + aside {
-  display: inline-block;
-  width: 30em;
-  max-width: 30vw;
+  float: right;
+  width: 34vw;
+  max-width: 30em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
   min-height: 100vh;
   vertical-align: top;
-  border-left: 1px solid #d8d8d8;
+}
+header + main + aside figure {
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 header + main + aside img {
   max-width: 100%;

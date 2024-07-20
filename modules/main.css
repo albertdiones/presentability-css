@@ -1,12 +1,13 @@
 @charset "UTF-8";
 article, .main, main {
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 10px;
   min-height: 100px;
   padding: 10px 20px;
   color: #000;
   display: block;
   float: none;
+  background: #fff;
   /* Forms on main */
   /* Square Inputs */
   /* Single Line Inputs beside labels */
